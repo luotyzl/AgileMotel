@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF8CEF27-FAD9-4167-B6C0-BE8467E63FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7CB2C8D-F782-41A2-8AF0-D88EA0A37ECB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Motel", "src\Motel\Motel.xproj", "{BEF96963-BAFF-4EBD-B782-330F9AC9DF28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF96963-BAFF-4EBD-B782-330F9AC9DF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF96963-BAFF-4EBD-B782-330F9AC9DF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF96963-BAFF-4EBD-B782-330F9AC9DF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF96963-BAFF-4EBD-B782-330F9AC9DF28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEF96963-BAFF-4EBD-B782-330F9AC9DF28} = {DF8CEF27-FAD9-4167-B6C0-BE8467E63FB2}
+	EndGlobalSection
+EndGlobal
